@@ -19,6 +19,7 @@ syntax enable
 
 " Plugins start
 call plug#begin()
+Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 Plug 'ayu-theme/ayu-vim'  
 Plug 'neovim/nvim-lspconfig'
