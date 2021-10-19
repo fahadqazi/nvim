@@ -14,6 +14,16 @@ set si
 set completeopt=menu,menuone,noselect
 set updatetime=100
 syntax enable
+
+set foldenable
+set foldlevelstart=1
+set foldnestmax=10
+set foldmethod=indent
+set foldcolumn=2
+
+set ignorecase
+set smartcase
+
 " Settings end
 
 
