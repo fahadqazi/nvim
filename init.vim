@@ -56,7 +56,6 @@ Plug 'frenzyexists/aquarium-vim', { 'branch': 'develop' }
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'sainnhe/gruvbox-material'
 Plug 'ayu-theme/ayu-vim' " or other package manager
-Plug 'jreybert/vimagit'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
