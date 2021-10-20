@@ -51,7 +51,6 @@ Plug 'tpope/vim-commentary'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'karb94/neoscroll.nvim'
 Plug 'norcalli/nvim-colorizer.lua'
-Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'frenzyexists/aquarium-vim', { 'branch': 'develop' }
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'sainnhe/gruvbox-material'
@@ -60,6 +59,10 @@ Plug 'MattesGroeger/vim-bookmarks'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 Plug 'mattn/emmet-vim'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/nvim-cmp'
+
 call plug#end()
 " Plugins end
 "
