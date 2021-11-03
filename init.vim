@@ -1,7 +1,7 @@
 " Settings start
 set scrolloff=8
 set number
-set relativenumber
+"set relativenumber
 set termguicolors     " enable true colors support
 
 set tabstop=2 softtabstop=4
@@ -15,11 +15,11 @@ set completeopt=menu,menuone,noselect
 set updatetime=100
 syntax enable
 
-set foldenable
-set foldlevelstart=1
-set foldnestmax=10
-set foldmethod=indent
-set foldcolumn=2
+"set foldenable
+"set foldlevelstart=1
+"set foldnestmax=10
+"set foldmethod=indent
+"set foldcolumn=2
 
 set ignorecase
 set smartcase
@@ -62,6 +62,10 @@ Plug 'mattn/emmet-vim'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'ap/vim-buftabline'
+Plug 'mhinz/vim-startify'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
 
 call plug#end()
 " Plugins end
